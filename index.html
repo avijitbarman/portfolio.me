@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Avijit Barman — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- decorative blobs -->
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+
+<header id="navbar" class="nav">
+  
+
+  <div class="brand">Avijit Barman<span class="dot"></span></div>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+</header>
+
+  
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="hero-card glass">
+      <div class="hero-left">
+       <h1 class="typewriter"></h1>
+       <p class="subtitle">Upcoming Engineer • IoT & Arduino • C / Java Enthusiast</p>
+
+        <div class="cta-row">
+          <a class="btn primary btn-contact" href="#contact">Contact Me</a>
+          <a class="btn ghost" href="#projects">See Projects</a>
+        </div>
+
+        <ul class="badges">
+          <li>C</li>
+          <li>Java</li>
+          <li>Arduino</li>
+          <li>IoT</li>
+          <li>DSA</li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <!-- placeholder profile card -->
+        <!-- placeholder profile card -->
+<div class="profile-card">
+    <img src="immage/DP.jpg" alt="Avijit Barman" class="profile-img">
+    
+    <h2>Avijit Barman</h2>
+    <p>3rd year B.Tech — CSE (IoT)</p>
+
+
+          <div class="socials">
+            <a href="#" aria-label="Github">GH</a>
+            <a href="#" aria-label="LinkedIn">IN</a>
+            <a href="#" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill glass">
+        <h4>C & Java</h4>
+        <p>Fundamentals, algorithms, problem solving.</p>
+      </div>
+      <div class="skill glass">
+        <h4>Arduino & IoT</h4>
+        <p>Sensor interfacing, automation projects.</p>
+      </div>
+      <div class="skill glass">
+        <h4>Web / UI</h4>
+        <p>HTML, CSS, JavaScript — modern responsive UI.</p>
+      </div>
+      <div class="skill glass">
+        <h4>DSA</h4>
+        <p>Data structures and algorithmic reasoning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card glass">
+        <h3>FishoTron (Arduino Edition)</h3>
+        <p>Offline automatic fish feeder and tank controller built with Arduino.</p>
+        <div class="project-tags"><span>Arduino</span><span>Embedded</span></div>
+      </article>
+
+      <article class="project-card glass">
+        <h3>Smart Home Prototype</h3>
+        <p>IoT automation demo with sensors & remote control.</p>
+        <div class="project-tags"><span>IoT</span><span>MQTT</span></div>
+      </article>
+
+      <article class="project-card glass">
+        <h3>DSA Practice Hub</h3>
+        <p>Tracker site to manage problem-practice and notes.</p>
+        <div class="project-tags"><span>React</span><span>Learning</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Get in touch</h2>
+    <div class="contact-grid">
+      <form id="contactForm" class="contact-card glass">
+        <label>
+          <span>Your name</span>
+          <input name="name" required placeholder="Your Name" />
+        </label>
+        <label>
+          <span>Your email</span>
+          <input name="email" type="email" required placeholder="Email" />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" placeholder="Say hi..." required></textarea>
+        </label>
+        <div class="form-row">
+          <button type="submit" class="btn primary">Send Message</button>
+          <button type="button" class="btn ghost btn-clear">Clear</button>
+        </div>
+      </form>
+
+      <div class="contact-info glass">
+        <h3>Contact Info</h3>
+        <p>Email: <a href="mailto: avijit.barman2023@iem.edu.in">avijit.barman2023@iem.edu.in</a></p>
+        <p>Location:Kolkata, West Bengal</p>
+        <p>Phone Number: 9064596797</p>
+        <div class="small-socials">
+          <div class="social-icons">
+    <a href="https://www.linkedin.com/in/avijit-barman-584525260/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/avijitbarman" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+</div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © <span id="2025"></span> Avijit Barman 
+  </footer>
+
+  <!-- toast container (created by JS) -->
+
+  <!-- Script -->
+  <script src="script.js"></script>
+  
+</body>
+</html>
